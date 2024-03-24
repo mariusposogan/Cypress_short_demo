@@ -6,4 +6,10 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+
+  viewportWidth: 1280,
+	viewportHeight: 720,
+  screenshotsFolder: 'cypress/screenshots',
+  retries: 1,
+  
 });
